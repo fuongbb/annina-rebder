@@ -27,3 +27,11 @@ If you'd like to upgrade to a newer version of Foundation down the road just run
 ```bash
 bower update
 ```
+
+## MISSING TASKS
+
+The following is missng tasks on the front-end exercise
+
+	* Fontawesome for icons
+	* rollovers on the 3 photo gallery thumbnails: make a nice CSS effect with !pink overlay and the title that moves with the icon appear
+	* Add a slideshow (fade transition) on the intro section using the 4 images provided. The title “Bergerlebnisse” and the button don’t move but stay on top of the slideshows. You can use flex-slider or another plugin of your ! choice
