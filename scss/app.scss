@@ -38,3 +38,67 @@
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
+
+section {
+	padding: 40px 0px;
+}
+
+section#thumbnails {
+	padding: 0px;
+}
+
+#bergerlebnisse, #fotoalbum, #im-sommer {
+	background-size: cover;
+	background-position: center bottom;
+}
+
+#bergerlebnisse {
+	background-image: url(../images/intro-slide2.jpg);
+}
+
+#fotoalbum {
+	background-image: url(../images/gallery-highlight.JPG);
+}
+
+#im-sommer {
+	background-image: url(../images/portrait.jpg);
+}
+
+#first-text h2, #let-talk h2, #contact h2 {font-family: 'Raleway Dots'}
+#contact h2 {
+	text-decoration:underline;
+}
+
+#first-text {background: #a2c3c8;}
+#let-talk, #contact {background: #f8688c;}
+
+.small-block-grid-3-custom {
+	 @include block-grid (
+	 	$per-row: 3,
+	 	$spacing: 0,
+	 	$base-style: true
+	 )
+}
+
+.small-block-grid-3-custom img.th {border: none;}
+.small-block-grid-3-custom img.th:hover {box-shadow	: none;}
+
+#main-header .title h1, #main-header .title h3 {color: #f8688c;} 
+#main-header .title h1 {font-family: Raleway; font-weight: bold;}
+#main-header .title h3 {font-family: 'Raleway Dots';}
+
+@media #{$large-up} {
+	#bergerlebnisse, #fotoalbum, #im-sommer {
+		padding: 350px 0px;
+	}
+	#let-talk, #first-text, #contact {
+		padding: 100px 0px;
+	}
+}
+
+@media #{$medium-up} {
+}
+
+// BUTTONS
+.weiter-btn {
+}
